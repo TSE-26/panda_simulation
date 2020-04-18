@@ -7,9 +7,9 @@ This package was written for ROS melodic running under Ubuntu 18.04. Run the fol
 ```
 mkdir -p catkin_ws/src
 cd catkin_ws/src
-git clone https://github.com/erdalpekel/panda_simulation.git
-git clone https://github.com/erdalpekel/panda_moveit_config.git
-git clone --branch simulation https://github.com/erdalpekel/franka_ros.git
+git clone https://github.com/TSE-26/panda_simulation
+git clone https://github.com/TSE-26/panda_moveit_config
+git clone --branch simulation https://github.com/TSE-26/franka_ros
 cd ..
 sudo apt-get install libboost-filesystem-dev
 rosdep install --from-paths src --ignore-src -y --skip-keys libfranka
