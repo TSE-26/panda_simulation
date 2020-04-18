@@ -34,16 +34,5 @@ export LC_NUMERIC="en_US.UTF-8"
 Otherwise, the robot will appear in rviz in a collapsed state.
 
 
-You can see the full explanation in my [blog post](https://erdalpekel.de/?p=55).
+You can see the full explanation on his [blog post](https://erdalpekel.de/?p=55).
 
-## Extension: _MoveIt!_ constraint-aware planning
-
-This repository was extended with a ROS node that communicates with the _MoveIt!_ Planning Scene API. It makes sure that the motion planning pipeline avoids collision objects in the environment specified by the user in a separate directory (`~/.panda_simulation`) as _JSON_ files. You can read more about it in the accompanying [blog post](https://erdalpekel.de/?p=123).
-
-## Extension: Publishing a box at Panda's hand in _Gazebo_
-
-This repository was extended with a node that publishes a simple box object in the _Gazebo_ simulation at the hand of the robot. The position of this box will get updated as soon as the robot moves. You can read more about it in the accompanying [blog post](https://erdalpekel.de/?p=178).
-
-## Extension: Visual Studio Code Remote Docker
-
-I have added configuration files and additional setup scripts for developing and using this ROS package within a *Docker* container. Currently user interfaces for Gazebo and RViz are not supported. You can read more about it in the [blog post](https://erdalpekel.de/?p=219).
