@@ -2,14 +2,14 @@
 
 ![Panda in Gazebo](assets/panda-in-gazebo.png?raw=true "Panda in Gazebo")
 
-This package was written for ROS melodic running under Ubuntu 18.04. Run the following commands to make sure that all additional packages are installed:
+This package was written for ROS kinetic running under Ubuntu 16.04. Run the following commands to make sure that all additional packages are installed:
 
 ```
 mkdir -p catkin_ws/src
 cd catkin_ws/src
 git clone https://github.com/TSE-26/panda_simulation
 git clone https://github.com/TSE-26/panda_moveit_config
-git clone --branch simulation https://github.com/TSE-26/franka_ros
+git clone https://github.com/TSE-26/franka_ros
 cd ..
 sudo apt-get install libboost-filesystem-dev
 rosdep install --from-paths src --ignore-src -y --skip-keys libfranka
